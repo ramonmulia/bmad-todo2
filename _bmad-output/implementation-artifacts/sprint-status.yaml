@@ -1,0 +1,75 @@
+# generated: 2026-04-27
+# last_updated: 2026-04-27
+# project: todo-app 2
+# project_key: NOKEY
+# tracking_system: file-system
+# story_location: _bmad-output/implementation-artifacts
+
+# STATUS DEFINITIONS:
+# ==================
+# Epic Status:
+#   - backlog: Epic not yet started
+#   - in-progress: Epic actively being worked on
+#   - done: All stories in epic completed
+#
+# Epic Status Transitions:
+#   - backlog -> in-progress: Automatically when first story is created (via create-story)
+#   - in-progress -> done: Manually when all stories reach 'done' status
+#
+# Story Status:
+#   - backlog: Story only exists in epic file
+#   - ready-for-dev: Story file created in stories folder
+#   - in-progress: Developer actively working on implementation
+#   - review: Ready for code review (via Dev's code-review workflow)
+#   - done: Story completed
+#
+# Retrospective Status:
+#   - optional: Can be completed but not required
+#   - done: Retrospective has been completed
+#
+# WORKFLOW NOTES:
+# ===============
+# - Epic transitions to 'in-progress' automatically when first story is created
+# - Stories can be worked in parallel if team capacity allows
+# - Developer typically creates next story after previous one is 'done' to incorporate learnings
+# - Dev moves story to 'review', then runs code-review (fresh context, different LLM recommended)
+
+generated: 2026-04-27
+last_updated: 2026-04-27T21:30:00Z
+project: todo-app 2
+project_key: NOKEY
+tracking_system: file-system
+story_location: _bmad-output/implementation-artifacts
+
+development_status:
+  # Epic 1: Filtering, Search & Bulk Actions
+  epic-1: in-progress
+  1-1-filter-todos-by-status: done
+  1-2-api-support-for-status-filtering: done
+  1-3-text-search: review
+  1-4-bulk-actions: backlog
+  epic-1-retrospective: optional
+
+  # Epic 2: Task Organization (Due Dates & Priorities)
+  epic-2: backlog
+  2-1-due-date-backend-support: backlog
+  2-2-due-date-frontend-display-and-input: backlog
+  2-3-priority-levels-backend-support: backlog
+  2-4-priority-levels-frontend-display-and-input: backlog
+  epic-2-retrospective: optional
+
+  # Epic 3: Theming & Accessibility Polish
+  epic-3: backlog
+  3-1-install-tailwind-daisyui-and-configure-theme: backlog
+  3-2-migrate-all-components-to-daisyui-and-remove-custom-css: backlog
+  3-3-light-theme-with-daisyui: backlog
+  3-4-theme-toggle-component: backlog
+  3-5-reduced-motion-and-accessibility-refinements: backlog
+  epic-3-retrospective: optional
+
+  # Epic 4: Test Coverage & Quality Gates
+  epic-4: backlog
+  4-1-backend-test-coverage-to-80-plus: backlog
+  4-2-frontend-test-coverage-to-70-plus: backlog
+  4-3-e2e-test-suite-expansion: backlog
+  epic-4-retrospective: optional

@@ -1,0 +1,5 @@
+[core]
+user_name = "Developer"
+communication_language = "English"
+document_output_language = "English"
+output_folder = "_bmad-output"
